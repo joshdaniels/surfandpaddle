@@ -95,16 +95,31 @@ margin-bottom: -7px;
 	float: left;
 padding-left: 7px;
 font-size: 14px;
-color: #0066cc;
-
-
-
+color: #006699;
+}
+.date{
+	
+	float: left;
+padding: 15px 0 0 10px;
 }
 
+p.date-text{
+	font-family: 'myriad pro';
+	color: #bcc2cd;
+	font-size:14px;
+	margin:0;
+}
+p.date-text-underline{p.date-text{
+	font-family: 'myriad pro';
+	color: #bcc2cd;
+	font-size:14px;
+	margin:0;}
 
 
-
-
+.text{
+float: left;
+margin: 0
+}
 
 
 

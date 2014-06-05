@@ -1,37 +1,30 @@
-
 .image {
-	width: 100%;
-	height: 1016px;
-	background-image:url(images/header.jpg);
-	background-repeat:none;
-	background-size: cover;
+width: 100%;
+height: 1016px;
+background-image:url(images/header.jpg);
+background-repeat:none;
+background-size: cover;
 }
-
-
 .container-one {
-	margin: 0 auto;
-	width: 2071px; 
-	height: 996px;
-
+margin: 0 auto;
+width: 2071px;
+height: 996px;
 }
-
 h3 {
-	display: inline-block;
-	margin-top: 20px;
-
+display: inline-block;
+margin-top: 20px;
 }
 .smallname {
-	display: inline-block;
-    margin-top: -2px;
-    font-family: 'myriad pro', sans-serif;
-  font-size: 32px;
-    padding-left: 8px;
-   color: #003366;
-} 
+display: inline-block;
+margin-top: -2px;
+font-family: 'myriad pro', sans-serif;
+font-size: 32px;
+padding-left: 8px;
+color: #003366;
+}
 .logo{
-	display: inline-block;
-	margin-top: 24px;
-
+display: inline-block;
+margin-top: 24px;
 }
 .about{float:right;
 margin-top: 37px;
@@ -39,13 +32,11 @@ padding-right: 22px;
 font-family: 'oswald';
 color: #003366;
 font-size: 35px;
-
 }
 .search{display: inline-block;
 font-family: 'Oswald';
 height: 25px;
 padding-left: 24px;
-
 }
 .bigname{
 padding-top: 330px;
@@ -58,106 +49,122 @@ height: 101px;
 text-shadow: 0 1px 0 #000;
 }
 .underbigname{
-	text-align: center;
-	font-family: 'myriad pro';
-	font-size: 34px;
-	margin-top: 137px;
-	color: #003366;
-
+text-align: center;
+font-family: 'myriad pro';
+font-size: 34px;
+margin-top: 137px;
+color: #003366;
 }
 .Container-two{margin: 0 auto;
-	wmargin: 0 auto;
+wmargin: 0 auto;
 width: 1317px;
 height: 500px;
 float: left;
-padding-left: 165px;
+padding-left: 312px;
 }
-
 .fantastic-headline{
-	font-family: 'Oswald';
-	font-size: 142px;
+font-family: 'Oswald';
+font-size: 125px;
 width: 1319px;
-	padding-top: 50px;
-	color: #003366;
-	height: 96px;
+padding-top: 50px;
+color: #003366;
+height: 96px;
 }
 .avatarcopy{
 width: 37px;
-
 }
 .headlinegoeshere{
-	font-family: 'Oswald';
-font-size: 146px;
-	color: #003366;
-	height: 74px;
-	/*overflow: hidden;*/
-	padding-bottom: 43px;
-	padding-top: 62px;
+font-family: 'Oswald';
+font-size: 127px;
+color: #003366;
+height: 74px;
+/*overflow: hidden;*/
+padding-bottom: 43px;
+padding-top: 62px;
 }
 .avatarname{
-	font-family: 'myriad pro';
-	font-size:12px;
-	padding-top: 82px;
-	float: left;
-	padding-left: 9px;
-	font-size: 29px;
-	color: #006699;
+font-family: 'myriad pro';
+font-size:12px;
+padding-top: 82px;
+float: left;
+padding-left: 9px;
+font-size: 29px;
+color: #006699;
 }
 .date{
-	
+
 float: left;
 float: left;
 padding: 11px 0 0 20px;
-padding: 86px 0 0 20px;
+padding: 81px 0 0 20px;
 }
-
 p.date-text {
-	font-family: 'myriad pro';
-	color: #bcc2cd;
-	font-size: 24px;
-	margin:0;
+font-family: 'myriad pro';
+color: #bcc2cd;
+font-size: 30px;
+margin:0;
 }
 /*p.date-text-underline{p.date-text{
-	font-family: 'myriad pro';
-	color: #bcc2cd;
-	font-size:14px;
-	margin:0;}*/
-
-
+font-family: 'myriad pro';
+color: #bcc2cd;
+font-size:14px;
+margin:0;}*/
 .text{
 clear:both;
 padding-top: 14px;
-width: 824px;
-
-  }
-
-
-
+width: 1243px;
+}
 .text-spacing{
 line-height: 1.5;
-font-size: 27px;
+font-size: 33px;
 color: #666666;
 font-family: 'myriad pro';
 }
-
 .magnifying-glass{
 height: 37px;
 padding-left: 20px;
 }
-
 .wave{
-	height: 94px;
+height: 94px;
 margin-bottom: -34px;
-
 }.img-float{
-	float: left;
-	padding-top: 75px;
+float: left;
+padding-top: 75px;
+}
+.second-text{
+line-height: 1.5;
+font-size: 33px;
+color: #666666;
+font-family: 'myriad pro';
+margin-top: 60px;
+}
+.paragraph-underline{
+color: #bcc2cd;
+}
+body{height: 3000px;
 }
 
+.quote{
+width: 801px;
+}
 
-
-
-
-
-
-
+.third-text{
+line-height: 1.5;
+font-size: 33px;
+color: #666666;
+font-family: 'myriad pro';
+margin-top: 60px;
+}
+.underline-two{
+color:#0066cc;
+}
+.fourth-text{
+line-height: 1.5;
+font-size: 33px;
+color: #666666;
+font-family: 'myriad pro';
+margin-top: 60px;
+}
+.icons{
+width: 900px;
+}

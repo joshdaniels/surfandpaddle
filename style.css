@@ -279,21 +279,90 @@ margin-right: 110px;
 
 }
 
+
+.hover{
+width: 1300px;
+height: 330px;
+position: ;
+position: relative;
+}
+
+.hover-one{
+width: 325px;
+float: left;
+clear: both;
+height: 330px;
+opacity: .75;
+position: absolute;
+background-color: #135c94;
+
+}
+.hover-one:hover{
+opacity: 0;
+}
+.hover-two{
+width: 325px;
+height: 330px;
+float: right;
+clear: both;
+position: absolute;
+left: 325px;
+opacity: .75;
+background-color: #135c94;
+
+}
+.hover-two:hover{
+opacity: 0;
+}
+.hover-three{
+float: left;
+width: 325px;
+height: 330px;
+position: absolute;
+left: 650px;
+opacity:.75;
+background-color: #135c94;
+
+}
+.hover-three:hover{
+opacity: 0;
+}
+.hover-four{
+float: left;
+width: 325px;
+height: 330px;
+position: absolute;
+left: 975px;
+opacity: .75;
+background-color: #135c94;
+
+}
+.hover-four:hover{
+	opacity: 0;
+}
 .article-image-one{
 float: left;
 clear: both;
-padding-top: 0px;
+height: 330px;
+width: 325px;
+background:url(images/article-image-1.jpg);
 }
-
 .article-image-two{
 float: left;
+height: 330px;
+width: 325px;
+background:url(images/article-image-2.jpg);
+position: absolute;
+left: 325px;
 }
 .article-image-three{
-	float: left;
+float: left;
+height: 330px;
+width: 325px;
 }
 .article-image-four{
-	float: left;
-	width: 325px;
+float: left;
+width: 325px;
 height: 330px;
 }
 .bottom{
@@ -328,6 +397,12 @@ color: #a3b3bf;
 font-size: 15px;
 font-weight: lighter;
 }
+.toplayer
+{
+
+}
+
+
 footer{
 	width: 1300px;
 }

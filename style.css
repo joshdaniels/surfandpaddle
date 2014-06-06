@@ -63,7 +63,7 @@ margin-top: 14px;
 color: #003366;
 }
 .page-content{
-height: 2104px;
+height: 920px;
 margin-top: 190px;
 }
 
@@ -71,6 +71,7 @@ margin-top: 190px;
 float: left;
 width: 800px;
 height: 1914px;
+height: 922px;
 }
 .fantastic-headline{
 clear: left;
@@ -199,29 +200,96 @@ font-family: 'myriad pro';
 margin-top: 15px;
 }
 .icons{
-width: 900px;
+width: 441px;
+float: left;
+margin-left: 173px;
+}
+.right-column{
+float: right;
+/* clear: both; */
+width: 450px;
+height: 1914;
+height: 1914px;
+margin-right: 80px;
+height: 922px;
 }
 .big-avatar{
+margin-right: 173px;
+margin-top: 80px;
 float: right;
-width: 198px;
-padding-top: 129px;
-padding-right: 426px;
 }
 .anne-name{
-	float: right;
+float: right;
 clear: both;
-width: 500px;
-padding-right: 247px;
+margin-right: 80px;
+
 }
 
-.ad{float: right;
-width: 600px;
-padding-top: 35px;
-padding-right: 208px;
+.ad{
+float: right;
+margin-top: 50px;
+margin-right: 75px;
 clear: both;
+}
+.under-ad{
+float: right;
+clear: both;
+margin: 0;
+margin-right: 80px;
+padding-top: 5px;
+color: grey;
+font-family: Myriad Pro;
 }
 .img-float{
 float: left;
 padding-top: 0px;
 
+}
+h3{
+	float: left;
+clear: both;
+margin: 0;
+margin-left: 98px;
+font-family: Oswald;
+font-weight: 400;
+color: #0a71a5;
+padding-top: 25px;
+}
+.right-article{
+	loat: right;
+clear: both;
+font-size: 16px;
+color: grey;
+margin-left: 98px;
+line: spacing;
+line-height: 1.5;
+margin-right: 80px;
+padding-top: 10px;
+}
+.line{
+	background-color: grey;
+	height: 1px;
+}
+.footer-headline{
+margin-left: 300px;
+margin-right: 110px;
+
+
+
+}
+
+.article-image-one{
+float: left;
+clear: both;
+padding-top: 0px;
+}
+
+.article-image-two{
+float: left;
+}
+.article-image-three{
+	float: left;
+}
+.article-image-four{
+	float: left;
 }

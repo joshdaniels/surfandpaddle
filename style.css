@@ -62,23 +62,33 @@ font-size: 16px;
 margin-top: 14px;
 color: #003366;
 }
-.Container-two{margin: 0 auto;
-wmargin: 0 auto;
-width: 2259px;
-height: 1985px
+.page-content{
+height: 2104px;
+margin-top: 190px;
+}
+
+.left-column{
 float: left;
-padding-left: 312px;
+width: 800px;
+height: 1914px;
 }
 .fantastic-headline{
+clear: left;
+margin-left: 159px;
+margin-left: 173px;
 font-family: 'Oswald';
-font-size: 125px;
-width: 1319px;
-padding-top: 50px;
+font-size: 66px;
 color: #003366;
-height: 96px;
+margin-top: 50px;
+line-height: 1.1;
 }
+
 .avatarcopy{
-width: 37px;
+float: left;
+margin-left: 179px;
+padding-top: 10px;
+width: 24px;
+}
 
 }
 .headlinegoeshere{
@@ -92,10 +102,10 @@ padding-top: 62px;
 }
 .avatarname{
 font-family: 'myriad pro';
-font-size:12px;
+font-size:16px;
 float: left;
 padding-left: 9px;
-font-size: 29px;
+padding-top: 14px;
 color: #006699;
 }
 .date{
@@ -108,8 +118,11 @@ padding: 1px 0 0 20px;
 p.date-text {
 font-family: 'myriad pro';
 color: #bcc2cd;
-font-size: 30px;
-margin:0;
+float: left;
+margin-top: 14px;
+padding-left: 14px;
+font-size: 14px;
+
 }
 /*p.date-text-underline{p.date-text{
 font-family: 'myriad pro';
@@ -123,8 +136,10 @@ float: left;
 padding-right: 50px
 }
 .text-spacing{
+clear: left;
+margin-left: 173px;
 line-height: 1.5;
-font-size: 33px;
+font-size: 16px;
 color: #666666;
 font-family: 'myriad pro';
 }
@@ -139,10 +154,13 @@ padding-top: 11px
 }
 .second-text{
 line-height: 1.5;
-font-size: 33px;
+font-size: 16px;
 color: #666666;
 font-family: 'myriad pro';
-margin-top: 60px;
+margin-top: 18px;
+float: left;
+clear: left;
+margin-left: 173px;
 }
 .paragraph-underline{
 color: #bcc2cd;
@@ -151,25 +169,34 @@ body{height: 3000px;
 }
 
 .quote{
-width: 801px;
+float: left;
+clear: left;
+margin-left: 173px;
 }
 
 .third-text{
 line-height: 1.5;
-font-size: 33px;
+font-size: 16px;
 color: #666666;
 font-family: 'myriad pro';
-margin-top: 60px;
+margin-top: 34px;
+float: left;
+clear: left;
+margin-left: 173px;
+}
 }
 .underline-two{
 color:#0066cc;
 }
 .fourth-text{
+float: left;
+clear: left;
+margin-left: 173px; 
 line-height: 1.5;
-font-size: 33px;
+font-size: 16px;
 color: #666666;
 font-family: 'myriad pro';
-margin-top: 60px;
+margin-top: 15px;
 }
 .icons{
 width: 900px;

@@ -57,8 +57,8 @@ color: #003366;
 }
 .Container-two{margin: 0 auto;
 wmargin: 0 auto;
-width: 1317px;
-height: 500px;
+width: 2259px;
+height: 1985px
 float: left;
 padding-left: 312px;
 }
@@ -110,9 +110,10 @@ color: #bcc2cd;
 font-size:14px;
 margin:0;}*/
 .text{
-clear:both;
 padding-top: 14px;
 width: 1243px;
+float: left;
+padding-right: 50px
 }
 .text-spacing{
 line-height: 1.5;
@@ -168,3 +169,22 @@ margin-top: 60px;
 .icons{
 width: 900px;
 }
+.big-avatar{
+float: right;
+width: 198px;
+padding-top: 129px;
+padding-right: 426px;
+}
+.anne-name{
+	float: right;
+clear: both;
+width: 500px;
+padding-right: 247px;
+}
+
+.ad{float: right;
+width: 600px;
+padding-top: 35px;
+padding-right: 208px;
+clear: both;
+}}

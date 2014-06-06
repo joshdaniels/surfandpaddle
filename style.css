@@ -166,7 +166,8 @@ margin-left: 173px;
 .paragraph-underline{
 color: #bcc2cd;
 }
-body{height: 3000px;
+body{height: 1970px;
+margin: 0;
 }
 
 .quote{
@@ -301,14 +302,27 @@ clear: both;
 .tiy-logo{
 margin-left: 176px;
 padding-top: 25px;
+margin-bottom: -5px;
+display: inline-block;
+float: left;
+
 }
 .copyright{
 float: left;
-/* clear: both; */
 margin-top: 40px;
 margin-top: 39px;
 margin-left: 10px;
 color: #a3b3bf;
-font-family: Myriad Pro;
+font-family: 'Myriad Pro';
+display: inline-block;
 font-size: 15px;
+}
+.nav{
+	float: right;
+padding-top: 21px;
+padding: right;
+padding-right: 166px;
+color: #a3b3bf;
+font-size: 15px;
+font-weight: lighter;
 }

@@ -293,3 +293,22 @@ float: left;
 .article-image-four{
 	float: left;
 }
+.bottom{
+background-color:#083452;
+height:100px;
+clear: both;
+}
+.tiy-logo{
+margin-left: 176px;
+padding-top: 25px;
+}
+.copyright{
+float: left;
+/* clear: both; */
+margin-top: 40px;
+margin-top: 39px;
+margin-left: 10px;
+color: #a3b3bf;
+font-family: Myriad Pro;
+font-size: 15px;
+}

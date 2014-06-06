@@ -1,48 +1,55 @@
-.image {
-width: 100%;
-height: 1016px;
+body{
+margin: auto;
+}
+
+.background {
+height: 521px;
+width: 1300px;
 background-image:url(images/header.jpg);
 background-repeat:none;
+position: absolute;
+z-index: -10;
 background-size: cover;
 }
-.container-one {
-margin: 0 auto;
-width: 2071px;
-height: 996px;
+.header-container {
+margin: auto;
+width: 80%;
+height: 100%;
 }
 h3 {
 display: inline-block;
 margin-top: 20px;
 }
 .smallname {
-display: inline-block;
-margin-top: -2px;
+margin-top: 24px;
 font-family: 'myriad pro', sans-serif;
-font-size: 32px;
-padding-left: 8px;
+font-size: 18px;
+padding-left: 15px;
 color: #003366;
+float: left;
 }
 .logo{
-display: inline-block;
-margin-top: 24px;
+
 }
-.about{float:right;
-margin-top: 37px;
+.about{
+float: right;
+margin-top: 20px;
 padding-right: 22px;
 font-family: 'oswald';
 color: #003366;
-font-size: 35px;
+font-size: 18px;
 }
-.search{display: inline-block;
+.search{
+display: inline-block;
 font-family: 'Oswald';
 height: 25px;
-padding-left: 24px;
+padding-left: 13px;
 }
 .bigname{
-padding-top: 330px;
+padding-top: 197px;
 font-family: 'myriad pro';
 color: white;
-font-size: 233px;
+font-size: 109px;
 padding-left: 0px;
 text-align: center;
 height: 101px;
@@ -51,8 +58,8 @@ text-shadow: 0 1px 0 #000;
 .underbigname{
 text-align: center;
 font-family: 'myriad pro';
-font-size: 34px;
-margin-top: 137px;
+font-size: 16px;
+margin-top: 14px;
 color: #003366;
 }
 .Container-two{margin: 0 auto;
@@ -72,6 +79,7 @@ height: 96px;
 }
 .avatarcopy{
 width: 37px;
+
 }
 .headlinegoeshere{
 font-family: 'Oswald';
@@ -85,7 +93,6 @@ padding-top: 62px;
 .avatarname{
 font-family: 'myriad pro';
 font-size:12px;
-padding-top: 82px;
 float: left;
 padding-left: 9px;
 font-size: 29px;
@@ -95,8 +102,8 @@ color: #006699;
 
 float: left;
 float: left;
-padding: 11px 0 0 20px;
-padding: 81px 0 0 20px;
+padding: 1px 0 0 20px;
+
 }
 p.date-text {
 font-family: 'myriad pro';
@@ -122,15 +129,13 @@ color: #666666;
 font-family: 'myriad pro';
 }
 .magnifying-glass{
-height: 37px;
-padding-left: 20px;
+height: 21px;
+padding-left: 10px;
 }
 .wave{
-height: 94px;
-margin-bottom: -34px;
-}.img-float{
 float: left;
-padding-top: 75px;
+padding: top;
+padding-top: 11px
 }
 .second-text{
 line-height: 1.5;
@@ -187,4 +192,9 @@ width: 600px;
 padding-top: 35px;
 padding-right: 208px;
 clear: both;
-}}
+}
+.img-float{
+float: left;
+padding-top: 0px;
+
+}

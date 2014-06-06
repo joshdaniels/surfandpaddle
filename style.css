@@ -211,7 +211,7 @@ float: right;
 width: 450px;
 height: 1914;
 height: 1914px;
-margin-right: 80px;
+margin-right: 28px;
 height: 922px;
 }
 .big-avatar{
@@ -293,6 +293,8 @@ float: left;
 }
 .article-image-four{
 	float: left;
+	width: 325px;
+height: 330px;
 }
 .bottom{
 background-color:#083452;
@@ -325,4 +327,7 @@ padding-right: 166px;
 color: #a3b3bf;
 font-size: 15px;
 font-weight: lighter;
+}
+footer{
+	width: 1300px;
 }

@@ -359,11 +359,53 @@ left: 325px;
 float: left;
 height: 330px;
 width: 325px;
+background:url(images/article-image-3.jpg);
+position: absolute;
+left: 650px;
 }
 .article-image-four{
 float: left;
 width: 325px;
 height: 330px;
+background:url(images/article-image-4.jpg);
+position: absolute;
+left: 975px;
+
+}
+.one-text{
+	font-family:'Oswald';
+	color: white;
+	font-size:28px;
+	float: left;
+margin-top: 284px;
+
+margin-left: 43px;
+}
+.two-text{
+font-family:'Oswald';
+color: white;
+font-size:28px;
+float: left;
+margin-top: 284px;
+margin-left: 19px;
+}
+.three-text{
+font-family:'Oswald';
+color: white;
+font-size:28px;
+float: left;
+margin-top: 241px;
+margin-left: 19px;
+}
+
+.four-text{
+font-family: 'Oswald';
+color: white;
+font-size: 28px;
+float: right;
+margin-top: 282px;
+margin-right: 110px;
+
 }
 .bottom{
 background-color:#083452;
@@ -405,4 +447,41 @@ font-weight: lighter;
 
 footer{
 	width: 1300px;
+}
+
+.black-text-one{
+font-family:'Oswald';
+	color: black;
+	font-size:28px;
+	float: left;
+margin-top: 284px;
+
+margin-left: 43px;
+}
+.black-text-two{
+font-family:'Oswald';
+color: black;
+font-size:28px;
+float: left;
+margin-top: 284px;
+margin-left: 19px;
+
+}
+.black-text-three{
+font-family:'Oswald';
+color: black;
+font-size:28px;
+float: left;
+margin-top: 241px;
+margin-left: 19px;
+
+
+}
+.black-text-four{
+font-family: 'Oswald';
+color: black;
+font-size: 28px;
+float: right;
+margin-top: 282px;
+margin-right: 110px;
 }

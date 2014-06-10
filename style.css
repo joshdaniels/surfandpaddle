@@ -1,488 +1,443 @@
-/*body{
-margin: auto;
-}
+body {
+  margin: auto; }
 
 .background {
-height: 521px;
-width: 1300px;
-background-image:url(images/header.jpg);
-background-repeat:none;
-position: absolute;
-z-index: -10;
-background-size: cover;
-}
+  height: 521px;
+  width: 1300px;
+  background-image: url(images/header.jpg);
+  background-repeat: none;
+  position: absolute;
+  z-index: -10;
+  background-size: cover; }
+
 .header-container {
-margin: auto;
-width: 80%;
-height: 100%;
-}
+  margin: auto;
+  width: 80%;
+  height: 100%; }
+
 h3 {
-display: inline-block;
-margin-top: 20px;
-}
+  display: inline-block;
+  margin-top: 20px; }
+
 .smallname {
-margin-top: 24px;
-font-family: 'myriad pro', sans-serif;
-font-size: 18px;
-padding-left: 15px;
-color: #003366;
-float: left;
-}
-.logo{
+  margin-top: 24px;
+  font-family: 'myriad pro', sans-serif;
+  font-size: 18px;
+  padding-left: 15px;
+  color: #003366;
+  float: left; }
 
-}
-.about{
-float: right;
-margin-top: 20px;
-padding-right: 22px;
-font-family: 'oswald';
-color: #003366;
-font-size: 18px;
-}
-.search{
-display: inline-block;
-font-family: 'Oswald';
-height: 25px;
-padding-left: 13px;
-}
-.bigname{
-padding-top: 197px;
-font-family: 'myriad pro';
-color: white;
-font-size: 109px;
-padding-left: 0px;
-text-align: center;
-height: 101px;
-text-shadow: 0 1px 0 #000;
-}
-.underbigname{
-text-align: center;
-font-family: 'myriad pro';
-font-size: 16px;
-margin-top: 14px;
-color: #003366;
-}
-.page-content{
-height: 920px;
-margin-top: 190px;
-position: relative;
-}
+.about {
+  float: right;
+  margin-top: 20px;
+  padding-right: 22px;
+  font-family: 'oswald';
+  color: #003366;
+  font-size: 18px; }
 
-.left-column{
-float: left;
-width: 800px;
-height: 1914px;
-height: 922px;
-}
-.fantastic-headline{
-clear: left;
-margin-left: 159px;
-margin-left: 173px;
-font-family: 'Oswald';
-font-size: 66px;
-color: #003366;
-margin-top: 50px;
-line-height: 1.1;
-}
+.search {
+  display: inline-block;
+  font-family: 'Oswald';
+  height: 25px;
+  padding-left: 13px; }
 
-.avatarcopy{
-float: left;
-margin-left: 179px;
-padding-top: 10px;
-width: 24px;
-}
+.bigname {
+  padding-top: 197px;
+  font-family: "myriad pro";
+  color: white;
+  font-size: 109px;
+  padding-left: 0px;
+  text-align: center;
+  height: 101px;
+  text-shadow: 0 1px 0 #000; }
 
-}
-.headlinegoeshere{
-font-family: 'Oswald';
-font-size: 127px;
-color: #003366;
-height: 74px;
-/*overflow: hidden;*/
-/*padding-bottom: 43px;
-padding-top: 62px;
-}
-.avatarname{
-font-family: 'myriad pro';
-font-size:16px;
-float: left;
-padding-left: 9px;
-padding-top: 14px;
-color: #006699;
-}
-.date{
+.underbigname {
+  color: #666666;
+  font-family: "myriad pro";
+  text-align: center;
+  font-size: 16px;
+  margin-top: 14px; }
 
-float: left;
-float: left;
-padding: 1px 0 0 20px;
+.page-content {
+  height: 920px;
+  margin-top: 190px;
+  position: relative; }
 
-}
+.left-column {
+  float: left;
+  width: 800px;
+  height: 1914px;
+  height: 922px; }
+
+.fantastic-headline {
+  clear: left;
+  margin-left: 159px;
+  margin-left: 173px;
+  font-family: 'Oswald';
+  font-size: 66px;
+  color: #003366;
+  margin-top: 50px;
+  line-height: 1.1; }
+
+.avatarcopy {
+  float: left;
+  margin-left: 179px;
+  padding-top: 10px;
+  width: 24px; }
+
+.headlinegoeshere {
+  font-family: 'Oswald';
+  font-size: 127px;
+  color: #003366;
+  height: 74px;
+  /*overflow: hidden;*/
+  padding-bottom: 43px;
+  padding-top: 62px; }
+
+.avatarname {
+  font-family: "myriad pro";
+  font-size: 16px;
+  float: left;
+  padding-left: 9px;
+  padding-top: 14px;
+  color: #006699; }
+
+.date {
+  float: left;
+  float: left;
+  padding: 1px 0 0 20px; }
+
 p.date-text {
-font-family: 'myriad pro';
-color: #bcc2cd;
-float: left;
-margin-top: 14px;
-padding-left: 14px;
-font-size: 14px;
+  font-family: "myriad pro";
+  color: #bcc2cd;
+  float: left;
+  margin-top: 14px;
+  padding-left: 14px;
+  font-size: 14px; }
 
-}
 /*p.date-text-underline{p.date-text{
-font-family: 'myriad pro';
+font-family:$font-family;
 color: #bcc2cd;
 font-size:14px;
 margin:0;}*/
-.text{
-padding-top: 14px;
-width: 1243px;
-float: left;
-padding-right: 50px
-}
-.text-spacing{
-clear: left;
-margin-left: 173px;
-line-height: 1.5;
-font-size: 16px;
-color: #666666;
-font-family: 'myriad pro';
-}
-.magnifying-glass{
-height: 21px;
-padding-left: 10px;
-}
-.wave{
-float: left;
-padding: top;
-padding-top: 11px
-}
-.second-text{
-line-height: 1.5;
-font-size: 16px;
-color: #666666;
-font-family: 'myriad pro';
-margin-top: 18px;
-float: left;
-clear: left;
-margin-left: 173px;
-}
-.paragraph-underline{
-color: #bcc2cd;
-}
-body{height: 1970px;
-margin: 0;
-}
+.text {
+  padding-top: 14px;
+  width: 1243px;
+  float: left;
+  padding-right: 50px; }
 
-.quote{
-float: left;
-clear: left;
-margin-left: 173px;
-}
+.text-spacing {
+  clear: left;
+  margin-left: 173px;
+  line-height: 1.5;
+  color: #666666;
+  font-family: "myriad pro"; }
 
-.third-text{
-line-height: 1.5;
-font-size: 16px;
-color: #666666;
-font-family: 'myriad pro';
-margin-top: 34px;
-float: left;
-clear: left;
-margin-left: 173px;
-}
-}
-.underline-two{
-color:#0066cc;
-}
-.fourth-text{
-float: left;
-clear: left;
-margin-left: 173px; 
-line-height: 1.5;
-font-size: 16px;
-color: #666666;
-font-family: 'myriad pro';
-margin-top: 15px;
-}
-.icons{
-width: 441px;
-float: left;
-margin-left: 173px;
-}
-.right-column{
-float: right;
-/* clear: both; */
-width: 450px;
-margin-right: 28px;
-height: 922px;
-position: absolute;
-left: 800px;
-}
-.big-avatar{
-margin-right: 173px;
-margin-top: 80px;
-float: right;
-}
-.anne-name{
-float: right;
-clear: both;
-margin-right: 80px;
+.magnifying-glass {
+  height: 21px;
+  padding-left: 10px; }
 
-}
+.wave {
+  float: left;
+  padding: top;
+  padding-top: 11px; }
 
-.ad{
-float: right;
-margin-top: 50px;
-margin-right: 75px;
-clear: both;
-}
-.under-ad{
-float: right;
-clear: both;
-margin: 0;
-margin-right: 80px;
-padding-top: 5px;
-color: grey;
-font-family: Myriad Pro;
-}
-.img-float{
-float: left;
-padding-top: 0px;
+.second-text {
+  line-height: 1.5;
+  font-size: 16px;
+  color: #666666;
+  font-family: "myriad pro";
+  margin-top: 18px;
+  float: left;
+  clear: left;
+  margin-left: 173px; }
 
-}
-h3{
-	float: left;
-clear: both;
-margin: 0;
-margin-left: 98px;
-font-family: Oswald;
-font-weight: 400;
-color: #0a71a5;
-padding-top: 25px;
-}
-.right-article{
-	loat: right;
-clear: both;
-font-size: 16px;
-color: grey;
-margin-left: 98px;
-line: spacing;
-line-height: 1.5;
-margin-right: 80px;
-padding-top: 10px;
-}
-.line{
-	background-color: grey;
-	height: 1px;
-}
-.footer-headline{
-margin-left: 300px;
-margin-right: 110px;
+.paragraph-underline {
+  color: #bcc2cd; }
 
+body {
+  height: 1970px;
+  margin: 0; }
 
+.quote {
+  float: left;
+  clear: left;
+  margin-left: 173px; }
 
-}
+.third-text {
+  color: #666666;
+  font-family: "myriad pro";
+  line-height: 1.5;
+  font-size: 16px;
+  margin-top: 34px;
+  float: left;
+  clear: left;
+  margin-left: 173px; }
 
+.underline-two {
+  color: #0066cc; }
 
-.hover{
-width: 1300px;
-height: 330px;
-position: ;
-position: relative;
-}
+.fourth-text {
+  color: #666666;
+  font-family: "myriad pro";
+  float: left;
+  clear: left;
+  margin-left: 173px;
+  line-height: 1.5;
+  font-size: 16px;
+  margin-top: 15px; }
 
-.hover-one{
-width: 325px;
-float: left;
-clear: both;
-height: 330px;
-opacity: .75;
-position: absolute;
-background-color: #135c94;
+.icons {
+  width: 441px;
+  float: left;
+  margin-left: 173px; }
 
-}
-.hover-one:hover{
-opacity: 0;
-}
-.hover-two{
-width: 325px;
-height: 330px;
-float: right;
-clear: both;
-position: absolute;
-left: 325px;
-opacity: .75;
-background-color: #135c94;
+.right-column {
+  float: right;
+  /* clear: both; */
+  width: 450px;
+  margin-right: 28px;
+  height: 922px;
+  position: absolute;
+  left: 800px; }
 
-}
-.hover-two:hover{
-opacity: 0;
-}
-.hover-three{
-float: left;
-width: 325px;
-height: 330px;
-position: absolute;
-left: 650px;
-opacity:.75;
-background-color: #135c94;
+.big-avatar {
+  margin-right: 173px;
+  margin-top: 80px;
+  float: right; }
 
-}
-.hover-three:hover{
-opacity: 0;
-}
-.hover-four{
-float: left;
-width: 325px;
-height: 330px;
-position: absolute;
-left: 975px;
-opacity: .75;
-background-color: #135c94;
+.anne-name {
+  float: right;
+  clear: both;
+  margin-right: 80px; }
 
-}
-.hover-four:hover{
-	opacity: 0;
-}
-.article-image-one{
-float: left;
-clear: both;
-height: 330px;
-width: 325px;
-background:url(images/article-image-1.jpg);
-}
-.article-image-two{
-float: left;
-height: 330px;
-width: 325px;
-background:url(images/article-image-2.jpg);
-position: absolute;
-left: 325px;
-}
-.article-image-three{
-float: left;
-height: 330px;
-width: 325px;
-background:url(images/article-image-3.jpg);
-position: absolute;
-left: 650px;
-}
-.article-image-four{
-float: left;
-width: 325px;
-height: 330px;
-background:url(images/article-image-4.jpg);
-position: absolute;
-left: 975px;
+.ad {
+  float: right;
+  margin-top: 50px;
+  margin-right: 75px;
+  clear: both; }
 
-}
-.one-text{
-	font-family:'Oswald';
-	color: white;
-	font-size:28px;
-	float: left;
-margin-top: 284px;
+.under-ad {
+  float: right;
+  clear: both;
+  margin: 0;
+  margin-right: 80px;
+  padding-top: 5px;
+  color: grey;
+  font-family: Myriad Pro; }
 
-margin-left: 43px;
-}
-.two-text{
-font-family:'Oswald';
-color: white;
-font-size:28px;
-float: left;
-margin-top: 284px;
-margin-left: 19px;
-}
-.three-text{
-font-family:'Oswald';
-color: white;
-font-size:28px;
-float: left;
-margin-top: 241px;
-margin-left: 19px;
-}
+.img-float {
+  float: left;
+  padding-top: 0px; }
 
-.four-text{
-font-family: 'Oswald';
-color: white;
-font-size: 28px;
-float: right;
-margin-top: 282px;
-margin-right: 110px;
+h3 {
+  float: left;
+  clear: both;
+  margin: 0;
+  margin-left: 98px;
+  font-family: Oswald;
+  font-weight: 400;
+  color: #0a71a5;
+  padding-top: 25px; }
 
-}
-.bottom{
-background-color:#083452;
-height:100px;
-clear: both;
-}
-.tiy-logo{
-margin-left: 176px;
-padding-top: 25px;
-margin-bottom: -5px;
-display: inline-block;
-float: left;
+.right-article {
+  loat: right;
+  clear: both;
+  font-size: 16px;
+  color: grey;
+  margin-left: 98px;
+  line: spacing;
+  line-height: 1.5;
+  margin-right: 80px;
+  padding-top: 10px; }
 
-}
-.copyright{
-float: left;
-margin-top: 40px;
-margin-top: 39px;
-margin-left: 10px;
-color: #a3b3bf;
-font-family: 'Myriad Pro';
-display: inline-block;
-font-size: 15px;
-}
-.nav{
-	float: right;
-padding-top: 21px;
-padding: right;
-padding-right: 166px;
-color: #a3b3bf;
-font-size: 15px;
-font-weight: lighter;
-}
-.toplayer
-{
+.line {
+  background-color: grey;
+  height: 1px; }
 
-}
+.footer-headline {
+  margin-left: 300px;
+  margin-right: 110px; }
 
+.hover {
+  width: 1300px;
+  height: 330px;
+  position: relative; }
 
-footer{
-	width: 1300px;
-}
+.hover-one {
+  width: 325px;
+  float: left;
+  clear: both;
+  height: 330px;
+  opacity: .75;
+  position: absolute;
+  background-color: #135c94; }
 
-.black-text-one{
-font-family:'Oswald';
-	color: black;
-	font-size:28px;
-	float: left;
-margin-top: 284px;
+.hover-one:hover {
+  opacity: 0; }
 
-margin-left: 43px;
-}
-.black-text-two{
-font-family:'Oswald';
-color: black;
-font-size:28px;
-float: left;
-margin-top: 284px;
-margin-left: 19px;
+.hover-two {
+  width: 325px;
+  height: 330px;
+  float: right;
+  clear: both;
+  position: absolute;
+  left: 325px;
+  opacity: .75;
+  background-color: #135c94; }
 
-}
-.black-text-three{
-font-family:'Oswald';
-color: black;
-font-size:28px;
-float: left;
-margin-top: 241px;
-margin-left: 19px;
+.hover-two:hover {
+  opacity: 0; }
 
+.hover-three {
+  float: left;
+  width: 325px;
+  height: 330px;
+  position: absolute;
+  left: 650px;
+  opacity: .75;
+  background-color: #135c94; }
 
-}
-.black-text-four{
-font-family: 'Oswald';
-color: black;
-font-size: 28px;
-float: right;
-margin-top: 282px;
-margin-right: 110px;
-}
+.hover-three:hover {
+  opacity: 0; }
+
+.hover-four {
+  float: left;
+  width: 325px;
+  height: 330px;
+  position: absolute;
+  left: 975px;
+  opacity: .75;
+  background-color: #135c94; }
+
+.hover-four:hover {
+  opacity: 0; }
+
+.article-image-one {
+  float: left;
+  clear: both;
+  height: 330px;
+  width: 325px;
+  background: url(images/article-image-1.jpg); }
+
+.article-image-two {
+  float: left;
+  height: 330px;
+  width: 325px;
+  background: url(images/article-image-2.jpg);
+  position: absolute;
+  left: 325px; }
+
+.article-image-three {
+  float: left;
+  height: 330px;
+  width: 325px;
+  background: url(images/article-image-3.jpg);
+  position: absolute;
+  left: 650px; }
+
+.article-image-four {
+  float: left;
+  width: 325px;
+  height: 330px;
+  background: url(images/article-image-4.jpg);
+  position: absolute;
+  left: 975px; }
+
+.one-text {
+  font-family: 'Oswald';
+  color: white;
+  font-size: 28px;
+  float: left;
+  margin-top: 284px;
+  margin-left: 43px; }
+
+.two-text {
+  font-family: 'Oswald';
+  color: white;
+  font-size: 28px;
+  float: left;
+  margin-top: 284px;
+  margin-left: 19px; }
+
+.three-text {
+  font-family: 'Oswald';
+  color: white;
+  font-size: 28px;
+  float: left;
+  margin-top: 241px;
+  margin-left: 19px; }
+
+.four-text {
+  font-family: 'Oswald';
+  color: white;
+  font-size: 28px;
+  float: right;
+  margin-top: 282px;
+  margin-right: 110px; }
+
+.bottom {
+  background-color: #083452;
+  height: 100px;
+  clear: both; }
+
+.tiy-logo {
+  margin-left: 176px;
+  padding-top: 25px;
+  margin-bottom: -5px;
+  display: inline-block;
+  float: left; }
+
+.copyright {
+  float: left;
+  margin-top: 40px;
+  margin-top: 39px;
+  margin-left: 10px;
+  color: #a3b3bf;
+  font-family: "myriad pro";
+  display: inline-block;
+  font-size: 15px; }
+
+.nav {
+  float: right;
+  padding-top: 21px;
+  padding: right;
+  padding-right: 166px;
+  color: #a3b3bf;
+  font-size: 15px;
+  font-weight: lighter; }
+
+footer {
+  width: 1300px; }
+
+.black-text-one {
+  font-family: 'Oswald';
+  color: black;
+  font-size: 28px;
+  float: left;
+  margin-top: 284px;
+  margin-left: 43px; }
+
+.black-text-two {
+  font-family: 'Oswald';
+  color: black;
+  font-size: 28px;
+  float: left;
+  margin-top: 284px;
+  margin-left: 19px; }
+
+.black-text-three {
+  font-family: 'Oswald';
+  color: black;
+  font-size: 28px;
+  float: left;
+  margin-top: 241px;
+  margin-left: 19px; }
+
+.black-text-four {
+  font-family: 'Oswald';
+  color: black;
+  font-size: 28px;
+  float: right;
+  margin-top: 282px;
+  margin-right: 110px; }

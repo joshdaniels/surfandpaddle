@@ -65,6 +65,7 @@ color: #003366;
 .page-content{
 height: 920px;
 margin-top: 190px;
+position: relative;
 }
 
 .left-column{
@@ -209,10 +210,10 @@ margin-left: 173px;
 float: right;
 /* clear: both; */
 width: 450px;
-height: 1914;
-height: 1914px;
 margin-right: 28px;
 height: 922px;
+position: absolute;
+left: 800px;
 }
 .big-avatar{
 margin-right: 173px;

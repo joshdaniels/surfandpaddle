@@ -1,0 +1,48 @@
+/*
+Syntax error: Invalid CSS after "auto": expected expression (e.g. 1px, bold), was ";"
+        on line 2 of style.css
+
+1: body{
+2: margin: auto;
+3: }
+4: 
+5: .background {
+6: height: 521px;
+7: width: 1300px;
+
+Backtrace:
+style.css:2
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:1312:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/script/lexer.rb:216:in `expected!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/script/parser.rb:600:in `assert_done'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/script/parser.rb:57:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/script/parser.rb:177:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/script.rb:27:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:1130:in `parse_script'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:728:in `parse_property'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:699:in `parse_property_or_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:665:in `parse_line'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:543:in `build_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:562:in `block in append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:561:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:561:in `append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:412:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:274:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:378:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:221:in `watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin.rb:108:in `method_missing'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:509:in `watch_or_update'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:346:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:43:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:22:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/bin/sass:13:in `<top (required)>'
+/usr/bin/sass:23:in `load'
+/usr/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"auto\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of style.css\A \A 1: body{\A 2: margin: auto;\A 3: }\A 4: \A 5: .background {\A 6: height: 521px;\A 7: width: 1300px;"; }

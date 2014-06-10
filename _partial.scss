@@ -1,0 +1,6 @@
+@mixin color($color1,$font-family) {
+ color:#666666:$color1;
+ font-family:'myriad Pro';
+ color:$color1;
+ font-family:'myriad Pro';
+}font-family:$font-family;

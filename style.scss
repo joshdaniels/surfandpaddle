@@ -1,6 +1,14 @@
-/*body{
+$color:#003366 ;
+color: $color;
+@import 'partial';
+
+     
+
+
+body{
 margin: auto;
 }
+color: $color;
 
 .background {
 height: 521px;
@@ -25,7 +33,7 @@ margin-top: 24px;
 font-family: 'myriad pro', sans-serif;
 font-size: 18px;
 padding-left: 15px;
-color: #003366;
+color: $color;
 float: left;
 }
 .logo{
@@ -36,7 +44,7 @@ float: right;
 margin-top: 20px;
 padding-right: 22px;
 font-family: 'oswald';
-color: #003366;
+color: $color;
 font-size: 18px;
 }
 .search{
@@ -47,7 +55,7 @@ padding-left: 13px;
 }
 .bigname{
 padding-top: 197px;
-font-family: 'myriad pro';
+font-family:$font-family;
 color: white;
 font-size: 109px;
 padding-left: 0px;
@@ -57,10 +65,10 @@ text-shadow: 0 1px 0 #000;
 }
 .underbigname{
 text-align: center;
-font-family: 'myriad pro';
+font-family:$font-family;
 font-size: 16px;
 margin-top: 14px;
-color: #003366;
+color: $color;
 }
 .page-content{
 height: 920px;
@@ -80,7 +88,7 @@ margin-left: 159px;
 margin-left: 173px;
 font-family: 'Oswald';
 font-size: 66px;
-color: #003366;
+color: $color;
 margin-top: 50px;
 line-height: 1.1;
 }
@@ -96,14 +104,14 @@ width: 24px;
 .headlinegoeshere{
 font-family: 'Oswald';
 font-size: 127px;
-color: #003366;
+color: $color;
 height: 74px;
 /*overflow: hidden;*/
-/*padding-bottom: 43px;
+padding-bottom: 43px;
 padding-top: 62px;
 }
 .avatarname{
-font-family: 'myriad pro';
+font-family:$font-family;
 font-size:16px;
 float: left;
 padding-left: 9px;
@@ -118,7 +126,7 @@ padding: 1px 0 0 20px;
 
 }
 p.date-text {
-font-family: 'myriad pro';
+font-family:$font-family;
 color: #bcc2cd;
 float: left;
 margin-top: 14px;
@@ -127,7 +135,7 @@ font-size: 14px;
 
 }
 /*p.date-text-underline{p.date-text{
-font-family: 'myriad pro';
+font-family:$font-family;
 color: #bcc2cd;
 font-size:14px;
 margin:0;}*/
@@ -142,8 +150,8 @@ clear: left;
 margin-left: 173px;
 line-height: 1.5;
 font-size: 16px;
-color: #666666;
-font-family: 'myriad pro';
+color:$color1;
+font-family:$font-family;
 }
 .magnifying-glass{
 height: 21px;
@@ -157,8 +165,8 @@ padding-top: 11px
 .second-text{
 line-height: 1.5;
 font-size: 16px;
-color: #666666;
-font-family: 'myriad pro';
+color:$color1;
+font-family:$font-family;
 margin-top: 18px;
 float: left;
 clear: left;
@@ -180,8 +188,8 @@ margin-left: 173px;
 .third-text{
 line-height: 1.5;
 font-size: 16px;
-color: #666666;
-font-family: 'myriad pro';
+color:$color1;
+font-family:$font-family;
 margin-top: 34px;
 float: left;
 clear: left;
@@ -197,8 +205,8 @@ clear: left;
 margin-left: 173px; 
 line-height: 1.5;
 font-size: 16px;
-color: #666666;
-font-family: 'myriad pro';
+color:$color1;
+font-family:$font-family;
 margin-top: 15px;
 }
 .icons{
@@ -427,7 +435,7 @@ margin-top: 40px;
 margin-top: 39px;
 margin-left: 10px;
 color: #a3b3bf;
-font-family: 'Myriad Pro';
+font-family:$font-family;
 display: inline-block;
 font-size: 15px;
 }

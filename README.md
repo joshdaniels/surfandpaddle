@@ -1,5 +1,5 @@
 
-
+¸,ø¤º°`°º¤ø,¸¸,ø¤º° ŚŮŖ₣ ÄŅĐ PÄĐĐĻË °º¤ø,¸¸,ø¤º°`°º¤ø,¸
 
 Homework today is to recreate the Surf and Paddle mockup. Both the mockup and the images folder is attached below in a zip file.
 
@@ -12,3 +12,4 @@ Also, you will need to utilize Google Fonts - http://www.google.com/fonts
 The fonts used in this mockup are (Oswald and Myriad Pro) you can substitute Myriad Pro with PT Sans though.
 
 This homework is due Monday morning by 9am and should be uploaded to your Github account titled something like "Surf and Paddle".
+¸,ø¤º°`°º¤ø,¸¸,ø¤º° ŚŮŖ₣ ÄŅĐ PÄĐĐĻË °º¤ø,¸¸,ø¤º°`°º¤ø,¸

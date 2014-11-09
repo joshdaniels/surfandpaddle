@@ -1,5 +1,5 @@
 
-¸,ø¤º°`°º¤ø,¸¸,ø¤º° ŚŮŖ₣ ÄŅĐ PÄĐĐĻË °º¤ø,¸¸,ø¤º°`°º¤ø,¸
+##¸,ø¤º°`°º¤ø,¸¸,ø¤º° ŚŮŖ₣ ÄŅĐ PÄĐĐĻË °º¤ø,¸¸,ø¤º°`°º¤ø,¸
 
 Homework today is to recreate the Surf and Paddle mockup. Both the mockup and the images folder is attached below in a zip file.
 
